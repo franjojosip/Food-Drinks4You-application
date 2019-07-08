@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "744598653073",
+    "firebase_url": "https://foodanddrinks4you.firebaseio.com",
+    "project_id": "foodanddrinks4you",
+    "storage_bucket": "foodanddrinks4you.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744598653073:android:25a8d3453ae66920",
+        "android_client_info": {
+          "package_name": "hr.ferit.franjojosipjukic.fooddrinks4you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744598653073-vmlnfdpn5fr6j01nh0es34f92b7jt5ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.ferit.franjojosipjukic.fooddrinks4you",
+            "certificate_hash": "fbb1d398cbad414977d945e86689983d53c7a18b"
+          }
+        },
+        {
+          "client_id": "744598653073-agar1m2pda6uiqt1j16ha00m9e086qes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_493XK2tOnmPJLZlAVhiHx0GOXi_Xny8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744598653073-agar1m2pda6uiqt1j16ha00m9e086qes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744598653073:android:d3be095823e4f820",
+        "android_client_info": {
+          "package_name": "hr.ferit.franjojosipjukic.provjera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744598653073-1j4uqqj1u6h3qekamcsa364kcnoplamk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hr.ferit.franjojosipjukic.provjera",
+            "certificate_hash": "fbb1d398cbad414977d945e86689983d53c7a18b"
+          }
+        },
+        {
+          "client_id": "744598653073-agar1m2pda6uiqt1j16ha00m9e086qes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_493XK2tOnmPJLZlAVhiHx0GOXi_Xny8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744598653073-agar1m2pda6uiqt1j16ha00m9e086qes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

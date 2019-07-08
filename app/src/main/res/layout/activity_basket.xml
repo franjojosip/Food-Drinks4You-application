@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layoutt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuThird"
+    tools:context=".BasketActivity">
+
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_above="@id/linearCart"
+        android:background="@drawable/rounded_corner_tab"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:id="@+id/tvShoppingCart"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="center"
+        android:text="@string/shopping_cart"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corner_basket_top"
+        android:textColor="@color/colorWhite"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvShoppingCart"
+        android:layout_above="@id/tvTotalPrice"
+
+    />
+    <LinearLayout
+        android:id="@+id/linearCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="3"
+        android:background="@color/shopping_cart_menu_background"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/ivHome"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:background="@mipmap/back_icon_foreground"
+                android:onClick="goBack"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/ivMenu"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_menu"
+                android:onClick="toMenuPage"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/ivBasket"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:background="@mipmap/check_icon_foreground"
+                android:onClick="buyItems"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

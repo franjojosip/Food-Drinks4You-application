@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+<LinearLayout
+    android:id="@+id/basketDialogRelative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+
+
+        <TextView
+            android:id="@+id/tvWait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/wait"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/itemColorText"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/tvOrderDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/making_order"
+            android:textSize="30sp"
+            android:textColor="@color/itemColorText"
+
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/pbOrder"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progressbar_drawable"
+            android:secondaryProgress="0" />
+
+
+        <TextView
+            android:id="@+id/tvProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/value"
+            android:textSize="30sp"
+            android:textColor="@color/itemColorText"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

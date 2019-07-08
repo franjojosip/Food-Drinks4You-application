@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:launchMode="singleInstance"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        >
+
+    <RelativeLayout
+        android:id="@+id/relativeFruits"
+        android:background="@drawable/fruits5_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/menuFirst"
+            >
+        <ImageView
+            android:id="@+id/ivFruits"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/fruits_icon_foreground"
+            />
+
+        </RelativeLayout>
+            <TextView
+                android:background="@drawable/rounded_corner_menu"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="80dp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/fruits"
+                android:textColor="@color/colorText"
+                android:textSize="35sp"
+                android:textStyle="bold|italic"
+                android:layout_centerInParent="true"
+                />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeVegetables"
+        android:background="@drawable/vegetables5_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/menuSecond"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/vegetables_icon_foreground"
+                />
+
+
+        </RelativeLayout>
+        <TextView
+            android:background="@drawable/rounded_corner_menu"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:layout_width="180dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/vegetables"
+            android:textColor="@color/colorText"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeSnacks"
+        android:background="@drawable/snacks3_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/menuThird"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/sweet_icon_foreground"
+                />
+
+
+        </RelativeLayout>
+        <TextView
+            android:background="@drawable/rounded_corner_menu"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/snacks"
+            android:textColor="@color/colorText"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeDrinks"
+        android:background="@drawable/drinks_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@color/menuFourth"
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/drinks_icon_foreground"
+                />
+
+
+    </RelativeLayout>
+
+        <TextView
+            android:background="@drawable/rounded_corner_menu"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="80dp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/drinks"
+            android:textColor="@color/colorText"
+            android:textSize="35sp"
+            android:textStyle="bold|italic"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    </LinearLayout>

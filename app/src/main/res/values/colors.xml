@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDialogBackground">#33ffffff</color>
+    <color name="colorFirstPage">#edae00</color>
+    <color name="colorBackground">#cfffca</color>
+    <color name="transparent">#a90b0b0b</color>
+    <color name="colorBlack">#000000</color>
+    <color name="menuFirst">#820b99f2</color>
+    <color name="menuSecond">#83f29d0b</color>
+    <color name="menuThird">#83bc2f2f</color>
+    <color name="menuFourth">#5e37ff00</color>
+    <color name="colorText">#fcc40e</color>
+    <color name="itemColorText">#1d1c1a</color>
+    <color name="colorImageBackground">#47000000</color>
+    <color name="colorItemBackground">#a4ff0000</color>
+    <color name="colorPagerBackground">#6cff0000</color>
+    <color name="tabFirst">#ffffff</color>
+    <color name="listMenuColor">#12ffffff</color>
+    <color name="PagerColor">#45ff0003</color>
+    <color name="TabColor">#d0ffc862</color>
+    <color name="colorRed">#98ff0003</color>
+    <color name="dialogItem">#ffffff</color>
+    <color name="tabSnacksColor">#83fd2125</color>
+    <color name="shopping_cart_menu_background">#d2fd2125</color>
+
+
+</resources>

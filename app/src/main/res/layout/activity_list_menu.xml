@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ListMenuActivity"
+    android:orientation="vertical"
+    android:background="@color/menuThird"
+    >
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabMenu"
+        app:tabTextColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/relative"
+        android:layout_below="@id/tabMenu"
+        />
+
+    <LinearLayout
+
+        android:background="@drawable/rounded_corner_basket_top"
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/home_icon_foreground"
+            android:onClick="toMainActivity"
+            android:layout_centerInParent="true"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_menu"
+            android:onClick="toMenuPage"
+            android:layout_centerInParent="true"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        <ImageView
+            android:id="@+id/ivBasket"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:background="@mipmap/shopping_cart_icon_foreground"
+            android:onClick="toShoppingBasket"
+            android:layout_centerInParent="true"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        <ImageView
+            android:id="@+id/ivLogout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@mipmap/logout_icon_foreground"
+            android:onClick="toLogOut"
+            android:layout_centerInParent="true"
+
+            />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
